@@ -2,7 +2,7 @@
 
 ## Part 1 - Tools, setup, and environment
 
-To be an effective web developer you'll need to download several tools and become an expert as using them. To be effective you need to be a super user. Navigating your computer needs to become second nature and the more effecient you are at it the more effective you'll be in general.
+To be an effective web developer you'll need to download several tools and become an expert as using them. To be effective you need to be a super user. Navigating your computer needs to become second nature and the more effecient you are at it the more effective you'll be in general!!
 
 * [Glossary / Cheat Sheets](pages/00-glossary.md)
 * [Download and install](pages/01-download-install.md)
