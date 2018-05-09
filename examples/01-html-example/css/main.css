@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thing {
+    display: inline-block;
+    position: absolute;
+    height: 200px;
+    background: blue;
+    color: white;
+    padding: 10px;
+}
+
+.absolute-thing {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background: red;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+li {
+    background: blue;
+    margin: 5px;
+}
+
+#my-header {
+    color: green;
+}
+
+.fun-list {
+    background: yellow;
+}
+
+.fun-list li {
+    background: purple;
+}
+
+.fun-list li.active {
+    background: red;
+}
+
+.fun-list .active.big {
+    font-size: 40px;
+}
+
+.this-thing {
+    width: 90%;
+    background: purple;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.inner {
+    padding: 10px;
+    box-sizing: border-box;
+
+    width: 33%;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+.inner2 {
+    position: relative;
+    background: yellow;
+    height: 100%;    
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 960px) {
+
+    .inner {
+        width: 100%;
+    }
+
+}
