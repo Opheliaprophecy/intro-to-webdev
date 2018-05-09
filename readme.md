@@ -7,7 +7,7 @@ To be an effective web developer you'll need to download several tools and becom
 * [Glossary / Cheat Sheets](resources/glossary.md)
 * [Download and install](pages/00-install.md)
 * [Github setup](pages/00-github-setup.md)
-* [Command line basics](pages/01-cli-basics.md)
+* [Command line basics](pages/01-cli.md)
 
 ## Part 2 - Intro to frontend Web Development
 
