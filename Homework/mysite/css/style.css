@@ -7,7 +7,10 @@ body, html {
 }
 #toppest {
     background: #f0f0f0;
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid gray;
+    line-height: 18px;
+    font-size: .5em;
+
 
 }
 
@@ -30,10 +33,14 @@ body, html {
     height: 100%;
 
 }
+
+.page-content {
+    
+}
 #content-right{
     float: right;
     width: 300px;
-    background: yellow;
+    background: red;
     height: 100%;
 
 }
@@ -70,15 +77,91 @@ body, html {
 }
 
 .right-thing {
-    background: #eff7ff;
+    background: #EFF7FF;
     position: absolute;
     right: 0;
     bottom: 0;
-    padding: 2px 5px;
+    padding: 4px;
     border-top-left-radius: 5px;
+    font-size: 0.6em;
+    color: grey;
+    line-height: 12px;
+    font: normal x-small verdana,arial,helvetica,sans-serif;
+    
+}
 
+.right-thing a {
+    text-decoration: none;
 }
 
 .tab-wrap { 
     display: inline-block;
 }
+
+.toppest-link {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.toppest-link.active {
+    color: orangered;
+    font-weight: bold;
+}
+
+.toppest-link:hover {
+text-decoration: underline;
+}
+
+.toppest-sep {
+}
+
+.my-subreddits {
+    margin-right: 30px;
+    margin-left: 5px;
+    display: inline;
+    padding-bottom: 10px;
+}
+
+.down-arrow {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 3px;
+    width: 0;
+    height: 0;
+    border-top: 6px solid #888;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.my-subreddits:hover #my-subreddit-menu {
+    display: block;
+}
+
+#my-subreddit-menu {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #666;
+    top: 19px;
+    left: 5px;
+    z-index: 99;
+
+}
+
+#my-subreddit-menu a {
+    display: block;
+    text-decoration: none;
+    color: #369;
+    text-transform: uppercase;
+    line-height: 15px;
+    padding: 0 5px;
+}
+
+
+#my-subreddit-menu a:hover {
+    background: #c7def7;
+}
+

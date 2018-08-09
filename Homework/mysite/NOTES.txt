@@ -1,0 +1,31 @@
+
+## General Keyboard stuff
+
+* ⌘ + space = search / launch program
+* ⌘ + left = home
+* ⌘ + right = end
+* ⌘ + shift + 4 = screenshot
+* ctrl + scroll (2 fingers up/down) = ZOOOM!
+* move mouse top left corner = sleepy night-night
+
+## VS Code Keyboard stuff
+
+* ⌘ + P = quick file switcher (press twice to quickly go to last file)
+* ⌘ + D = select multiple (highlight something then press it to select others)
+* option + up/down = move line up / down
+* option + shift + up/down = duplicate line up/down
+
+## Start server
+
+To start the server run: `browser-sync start --server --files .`
+(you should be able to type brow [tab] then just press up once)
+
+## Build Reddit
+
+* top right menu (aka BUTT STUFF) = just some text an links (<a href="#">Log in</a>) and some css
+* right column = divs / inputs. (<input type="text"> type="checkbox" type="button")
+* left column (main content)...
+    * 1 div per post
+    * just do an screenshot/img for up/down/score
+    * screenshot for image
+    * link (<a href="#">) for title
