@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Float on...</title>
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            border: 1px dotted red;
+        }
+
+        .wrapper {
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+            background: silver;
+        }
+
+        .logo-wrap {
+            float: left;
+        }
+
+        .links {
+            float: right;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .nav-row {
+            text-align: center;
+        }
+
+        .nav-row div {
+            display: inline-block;
+            padding: 10px 20px;
+        }
+
+        .left-bar {
+            float: left;
+            width: 250px;
+        }
+
+        .content {
+            float: left;
+            width: 745px;
+        }
+
+        .left-bar-thing {
+            width: 200px;
+            height: 150px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+        .promo {
+            padding: 20px 0;
+            text-align: center;
+        }
+        .product-dude {
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+            float: left;
+            margin: 20px;
+        }        
+        .banner-boi {
+            width: 200px;
+            height: 80px;
+            border: 1px solid black;
+            float: left;
+            margin: 20px;
+        }  
+
+        .menu {
+            line-height: 10px;
+            float: right;
+            font-size: 30px;
+            font-weight: bold;
+            margin: 10px 10px 0 0;
+            display: none;
+        }
+
+        @media (max-width: 1000px) {
+            .left-bar {
+                float: none;
+                width: 100%;
+            }
+            .left-bar-thing {
+                float: left;
+                margin-right: 20px;
+            }
+            .content {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .nav-row {
+                display: none;
+            }
+            .links {
+                display: none;
+            }
+            .menu {
+                display: block;
+            }
+        }
+
+        @media (max-width: 666px) {
+            .left-bar-thing, .product-dude, .banner-boi{
+                float: none;
+                width: 90%;
+                margin: 10px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo-wrap">
+                <div style="width: 350px; height: 80px; border: 1px solid black">Logo</div>
+            </div>
+            <div class="links">
+                <a href="#">Link 1</a> |
+                <a href="#">Link 2</a> |
+                <a href="#">Link 3</a> |
+                <a href="#">Link 4</a>
+                <div style="display: inline-block; border: 1px solid black; width: 50px; height: 50px;">HEAD</div>
+            </div>
+            <div class="menu">
+                &mdash;<br>&mdash;<br>&mdash;<br>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="nav-row">
+            <div>NAV LINK</div>
+            <div>NAV LINK</div>
+            <div>NAV LINK</div>
+            <div>NAV LINK</div>
+            <div>NAV LINK</div>
+            <div>NAV LINK</div>
+            <div>NAV LINK</div>
+        </div>
+        <div class="left-bar">
+            <div class="left-bar-thing">THING!!</div>
+            <div class="left-bar-thing">THING!!</div>
+            <div class="left-bar-thing">THING!!</div>
+        </div>
+        <div class="content">
+            <div class="promo">PROMO!!!</div>
+            <div class="product-dude">PRODUCT!!!</div>
+            <div class="product-dude">PRODUCT!!!</div>
+            <div class="banner-boi">BANNER!!!</div>
+            <div class="banner-boi">BANNER!!!</div>
+            <div class="banner-boi">BANNER!!!</div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</body>
+
+</html>

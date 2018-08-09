@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table Layouts suck</title>
+    <style>
+        body,html {
+            margin: 0;
+            padding: 0;
+        }
+
+        td {
+            border: 1px dotted red;
+            vertical-align: top;
+        }
+        .outer-table {
+            margin: 0 auto;
+            width: 1200px;
+        }
+        .nav-row {
+            text-align: center;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .nav-row div {
+            display: inline-block;
+            padding: 0 30px;
+        }
+        .left-bar-thing {
+            width: 200px;
+            height: 150px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+        .product-dude {
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <table class="outer-table">
+        <tr style="height: 100px;">
+            <td>
+                <div style="width: 350px; height: 80px; border: 1px solid black">Logo</div>
+            </td>
+            <td style="text-align: right;">
+                <a href="#">Link 1</a> |
+                <a href="#">Link 2</a> |
+                <a href="#">Link 3</a> |
+                <a href="#">Link 4</a>
+                <div style="display: inline-block; border: 1px solid black; width: 50px; height: 50px;">HEAD</div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="nav-row">
+                <div>NAV LINK</div>
+                <div>NAV LINK</div>
+                <div>NAV LINK</div>
+                <div>NAV LINK</div>
+                <div>NAV LINK</div>
+                <div>NAV LINK</div>
+                <div>NAV LINK</div>
+            </td>
+        <tr>
+            <td colspan="2">
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 240px;">
+                            <div class="left-bar-thing">THING!!</div>
+                            <div class="left-bar-thing">THING!!</div>
+                            <div class="left-bar-thing">THING!!</div>
+                        </td>
+                        <td>
+                            <div style="padding: 40px; border: 1px solid black;">Promo banner</div>
+                            <table style="width: 100%">
+                                <tr>
+                                    <td><div class="product-dude">PRODUCT!!</div></td>
+                                    <td><div class="product-dude">PRODUCT!!</div></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,18 @@
+CSS
+
+Know these things by heart:
+
+- display - https://developer.mozilla.org/en-US/docs/Web/CSS/display
+- position - https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+other stuffs...
+- media query - https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+- flex box - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+- bootstrap - https://getbootstrap.com/docs/4.1/getting-started/introduction/
+
+
+HOMEWORK!!!
+
+- Use flexbox to create the layout in the wireframe.
+- Play with css display / position until you "get it"
+- Keep building reddit

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex them guns</title>
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        div {
+            border: 1px dotted red;
+        }
+
+        .rtl .wrap {
+            flex-direction: row-reverse;
+        }
+
+        .wrap {
+            height: 100%;
+            background: silver;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .thing {
+            background: teal;
+        }
+
+        @media (max-width: 1000px) {
+            .wrap {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="thing">LOADING!!!! 1</div>
+        <div class="thing">LOADING!!!! 2</div>
+        <div class="thing">LOADING!!!! 3</div>
+        <div class="thing">LOADING!!!! 4</div>
+        <div class="thing">LOADING!!!! 5</div>
+        <div class="thing">LOADING!!!! 6</div>
+    </div>
+</body>
+</html>
